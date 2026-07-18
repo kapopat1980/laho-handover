@@ -1,0 +1,46 @@
+{
+  "FIXED": [
+    {
+      "n_ue": 10,
+      "pingpong_pct": 7.442788752630736,
+      "drop_rate": 1.0
+    },
+    {
+      "n_ue": 30,
+      "pingpong_pct": 6.5330682502037005,
+      "drop_rate": 0.8333333333333334
+    },
+    {
+      "n_ue": 60,
+      "pingpong_pct": 6.805877500837854,
+      "drop_rate": 0.9166666666666667
+    },
+    {
+      "n_ue": 100,
+      "pingpong_pct": 6.635713804337286,
+      "drop_rate": 0.9
+    }
+  ],
+  "LAHO": [
+    {
+      "n_ue": 10,
+      "pingpong_pct": 1.5390824701623487,
+      "drop_rate": 0.0
+    },
+    {
+      "n_ue": 30,
+      "pingpong_pct": 1.234136520158987,
+      "drop_rate": 0.0
+    },
+    {
+      "n_ue": 60,
+      "pingpong_pct": 1.350862987044733,
+      "drop_rate": 0.0
+    },
+    {
+      "n_ue": 100,
+      "pingpong_pct": 1.329636812038582,
+      "drop_rate": 0.05
+    }
+  ]
+}

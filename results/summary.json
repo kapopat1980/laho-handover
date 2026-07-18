@@ -1,0 +1,126 @@
+{
+  "overall": {
+    "FIXED": {
+      "ho_success_rate": 89.02595470242532,
+      "ho_pingpong_ratio": 10.974045297574698,
+      "call_drop_rate": 0.16666666666666666,
+      "avg_throughput_mbps": 189.42252998057188,
+      "avg_ho_latency_ms": 42.16314336962123
+    },
+    "DWELL": {
+      "ho_success_rate": 97.55741721046898,
+      "ho_pingpong_ratio": 2.442582789531022,
+      "call_drop_rate": 0.22222222222222224,
+      "avg_throughput_mbps": 187.54691182745717,
+      "avg_ho_latency_ms": 40.49763645864369
+    },
+    "FUZZYSP": {
+      "ho_success_rate": 91.30041549870988,
+      "ho_pingpong_ratio": 8.699584501290126,
+      "call_drop_rate": 0.1388888888888889,
+      "avg_throughput_mbps": 188.96983396382097,
+      "avg_ho_latency_ms": 41.765019329039724
+    },
+    "LAHO": {
+      "ho_success_rate": 93.5675724227525,
+      "ho_pingpong_ratio": 6.43242757724748,
+      "call_drop_rate": 0.05555555555555556,
+      "avg_throughput_mbps": 189.06015283562067,
+      "avg_ho_latency_ms": 41.31319044902696
+    }
+  },
+  "stress": {
+    "FIXED": {
+      "ho_count": 13.554999999999998,
+      "ho_pingpong_ratio": 6.5330682502037005,
+      "call_drop_rate": 0.8333333333333334,
+      "avg_throughput_mbps": 166.54128443829444,
+      "avg_ho_latency_ms": 41.384332224345805,
+      "ho_success_rate": 93.46693174979632,
+      "algo": "FIXED",
+      "mobility": "driving",
+      "congestion": "high"
+    },
+    "DWELL": {
+      "ho_count": 8.216666666666665,
+      "ho_pingpong_ratio": 2.349799655944843,
+      "call_drop_rate": 1.0,
+      "avg_throughput_mbps": 165.6901288955465,
+      "avg_ho_latency_ms": 40.525537197972504,
+      "ho_success_rate": 97.65020034405515,
+      "algo": "DWELL",
+      "mobility": "driving",
+      "congestion": "high"
+    },
+    "FUZZYSP": {
+      "ho_count": 10.303333333333336,
+      "ho_pingpong_ratio": 6.2094117181857635,
+      "call_drop_rate": 0.8333333333333334,
+      "avg_throughput_mbps": 166.8812913632884,
+      "avg_ho_latency_ms": 41.37075455432238,
+      "ho_success_rate": 93.79058828181424,
+      "algo": "FUZZYSP",
+      "mobility": "driving",
+      "congestion": "high"
+    },
+    "LAHO": {
+      "ho_count": 6.756666666666666,
+      "ho_pingpong_ratio": 1.234136520158987,
+      "call_drop_rate": 0.0,
+      "avg_throughput_mbps": 166.53091056190206,
+      "avg_ho_latency_ms": 40.29033064937374,
+      "ho_success_rate": 98.76586347984102,
+      "algo": "LAHO",
+      "mobility": "driving",
+      "congestion": "high"
+    }
+  },
+  "improve": {
+    "overall": {
+      "FIXED": {
+        "ho_success_rate": 5.1,
+        "ho_pingpong_ratio": 41.4,
+        "call_drop_rate": 66.7,
+        "avg_throughput_mbps": -0.2,
+        "avg_ho_latency_ms": 2.0
+      },
+      "DWELL": {
+        "ho_success_rate": -4.1,
+        "ho_pingpong_ratio": -163.3,
+        "call_drop_rate": 75.0,
+        "avg_throughput_mbps": 0.8,
+        "avg_ho_latency_ms": -2.0
+      },
+      "FUZZYSP": {
+        "ho_success_rate": 2.5,
+        "ho_pingpong_ratio": 26.1,
+        "call_drop_rate": 60.0,
+        "avg_throughput_mbps": 0.0,
+        "avg_ho_latency_ms": 1.1
+      }
+    },
+    "stress": {
+      "FIXED": {
+        "ho_success_rate": 5.7,
+        "ho_pingpong_ratio": 81.1,
+        "call_drop_rate": 100.0,
+        "avg_throughput_mbps": -0.0,
+        "avg_ho_latency_ms": 2.6
+      },
+      "DWELL": {
+        "ho_success_rate": 1.1,
+        "ho_pingpong_ratio": 47.5,
+        "call_drop_rate": 100.0,
+        "avg_throughput_mbps": 0.5,
+        "avg_ho_latency_ms": 0.6
+      },
+      "FUZZYSP": {
+        "ho_success_rate": 5.3,
+        "ho_pingpong_ratio": 80.1,
+        "call_drop_rate": 100.0,
+        "avg_throughput_mbps": -0.2,
+        "avg_ho_latency_ms": 2.6
+      }
+    }
+  }
+}

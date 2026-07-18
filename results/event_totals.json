@@ -1,0 +1,22 @@
+{
+  "FIXED": {
+    "ho_necessary": 42296,
+    "ho_pingpong": 5879,
+    "ho_blocked": 5569
+  },
+  "DWELL": {
+    "ho_necessary": 14111,
+    "ho_pingpong": 432,
+    "ho_blocked": 2038
+  },
+  "FUZZYSP": {
+    "ho_necessary": 18333,
+    "ho_pingpong": 1616,
+    "ho_blocked": 2508
+  },
+  "LAHO": {
+    "ho_necessary": 14478,
+    "ho_pingpong": 936,
+    "ho_blocked": 1701
+  }
+}
