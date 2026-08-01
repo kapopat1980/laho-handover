@@ -11,10 +11,10 @@ authors:
     given-names: "Divyakant"
     affiliation: "Marwadi University"
     orcid: ""
-repository-code: ""  # add the GitHub URL once created, e.g. https://github.com/<username>/laho-handover
+repository-code: "https://github.com/kapopat1980/laho-handover"
 license: MIT
-version: "1.0.0"
-date-released: "2026-07-10"
+version: "1.1.0"
+date-released: "2026-08-01"
 preferred-citation:
   type: article
   title: "LAHO: A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm for Congestion-Resilient 5G Heterogeneous Cellular Networks"
@@ -23,7 +23,8 @@ preferred-citation:
       given-names: "Kalpesh"
     - family-names: "Meva"
       given-names: "Divyakant"
-  journal: "IEEE Access"
+  journal: "Discover Internet of Things"
+  publisher: "Springer Nature"
   year: 2026
   status: submitted
   doi: ""  # add once assigned
