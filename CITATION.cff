@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or dataset, please cite the paper below."
-title: "LAHO: A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm for Congestion-Resilient 5G Heterogeneous Cellular Networks"
+title: "A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm (LAHO) for Congestion-Resilient 5G Heterogeneous Cellular Networks"
 type: software
 authors:
   - family-names: "Popat"
@@ -17,7 +17,7 @@ version: "1.1.0"
 date-released: "2026-08-01"
 preferred-citation:
   type: article
-  title: "LAHO: A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm for Congestion-Resilient 5G Heterogeneous Cellular Networks"
+  title: "A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm (LAHO) for Congestion-Resilient 5G Heterogeneous Cellular Networks"
   authors:
     - family-names: "Popat"
       given-names: "Kalpesh"

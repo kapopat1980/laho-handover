@@ -75,7 +75,7 @@ const doc = new Document({
     footers: { default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ children: [PageNumber.CURRENT], font: FONT, size: 18 })] })] }) },
     children: [
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 160 },
-        children: [new TextRun({ text: "LAHO: A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm for Congestion-Resilient 5G Heterogeneous Cellular Networks", font: FONT, size: 34, bold: true })] }),
+        children: [new TextRun({ text: "A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm (LAHO) for Congestion-Resilient 5G Heterogeneous Cellular Networks", font: FONT, size: 34, bold: true })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 },
         children: [new TextRun({ text: "Kalpesh Popat¹ · Divyakant Meva¹", font: FONT, size: 24 })] }),
       new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 100 },
@@ -316,15 +316,15 @@ const doc = new Document({
         ["Algorithm", "Mean time per decision (μs)", "Relative to FIXED"],
         [
           ["FIXED (baseline)", "0.33", "1.0×"],
-          ["FUZZYSP [7],[8]-style", "3.60", "11.0×"],
-          ["DWELL [2]-style", "8.64", "26.4×"],
-          ["LAHO (proposed)", "23.72", "72.5×"],
+          ["FUZZYSP [7],[8]-style", "3.60", "10.9×"],
+          ["DWELL [2]-style", "8.64", "26.2×"],
+          ["LAHO (proposed)", "23.72", "71.9×"],
         ],
         [2600, 3200, 2200],
       ),
       tableCaption("Table 6. Measured mean computational cost per handover decision, averaged over 20,000 trials."),
 
-      p("While LAHO is roughly 73 times more expensive per decision than the fixed-threshold baseline, its absolute cost — approximately 24 microseconds — is negligible relative to the measurement and decision intervals used in practical handover procedures, which operate on the order of tens to hundreds of milliseconds (i.e., three to four orders of magnitude larger than LAHO's per-decision cost). The overhead is therefore not expected to be a barrier to real-time deployment on modern baseband or edge-compute hardware, though it is a genuine and honestly-reported cost of the additional fuzzy inference and load-aware candidate search, and should be considered alongside the ping-pong and call-drop gains reported in Sections 5.1-5.2 rather than treated as free."),
+      p("While LAHO is roughly 72 times more expensive per decision than the fixed-threshold baseline, its absolute cost — approximately 24 microseconds — is negligible relative to the measurement and decision intervals used in practical handover procedures, which operate on the order of tens to hundreds of milliseconds (i.e., three to four orders of magnitude larger than LAHO's per-decision cost). The overhead is therefore not expected to be a barrier to real-time deployment on modern baseband or edge-compute hardware, though it is a genuine and honestly-reported cost of the additional fuzzy inference and load-aware candidate search, and should be considered alongside the ping-pong and call-drop gains reported in Sections 5.1-5.2 rather than treated as free."),
 
       heading2("5.8 Scalability Analysis"),
       p("All results reported so far use 30 UEs per scenario. To assess whether LAHO's stress-scenario advantage holds as network size changes, the driving + high-congestion scenario was re-run for LAHO and the FIXED baseline at 10, 30, 60, and 100 concurrent UEs, with all other parameters unchanged, over 20 random seeds."),
@@ -343,7 +343,7 @@ const doc = new Document({
       heading1("Declarations"),
       p("Funding: [Author to insert funding statement, e.g., \"This research received no external funding\" or grant details.]"),
       p("Conflict of interest: The authors declare no competing interests."),
-      p("Data availability: The simulation code, raw result files, and figure-generation scripts used to produce all tables and figures in this paper are available at [author to insert repository URL, e.g., https://github.com/<username>/laho-handover]."),
+      p("Data availability: The simulation code, raw result files, and figure-generation scripts used to produce all tables and figures in this paper are available at https://github.com/kapopat1980/laho-handover."),
       p("Generative AI use: Generative AI tools (Claude, Anthropic) were used to assist in drafting text, generating the Python simulation code and figure-generation scripts described in Sections 4-5, and producing the pseudocode/diagram figures in Sections 3-5. All simulation results were produced by executing this AI-assisted code; the algorithm design, literature verification, and all technical claims were reviewed and validated by the authors. This disclosure is provided in the interest of transparency."),
 
       heading1("References"),

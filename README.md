@@ -2,7 +2,7 @@
 
 This repository contains the simulation code, raw results, and figures supporting the paper:
 
-> K. Popat and D. Meva, "LAHO: A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm for Congestion-Resilient 5G Heterogeneous Cellular Networks," *submitted to Discover Internet of Things (Springer Nature)*, 2026. [DOI to be added upon publication]
+> K. Popat and D. Meva, "A GPS-Assisted, Load-Aware Adaptive Fuzzy Handover Algorithm (LAHO) for Congestion-Resilient 5G Heterogeneous Cellular Networks," *submitted to Discover Internet of Things (Springer Nature)*, 2026. [DOI to be added upon publication]
 
 **Note:** This work was previously submitted to IEEE Access and did not pass editorial prescreening. It has since been revised (20 random seeds instead of 5, QualNet framing removed, additional statistical rigor added) and reformatted for Discover Internet of Things. The `paper/` folder contains the earlier IEEE Access-formatted version for reference; `paper_springer/` contains the current, actively-submitted version and is the one that matches the numbers in this README and in `results/`.
 
